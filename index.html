@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChaiTap - Online Chai Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a href="#home" class="logo">☕ ChaiTap</a>
+
+            <ul class="nav-links">
+                <li><a href="#home">🏠 Home</a></li>
+                <li><a href="#menu">🍵 Menu</a></li>
+                <li><a href="#plans">💳 Plans</a></li>
+                <li><a href="#order" class="nav-order">🛒 Order</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="small-title">Fresh • Hot • Fast</p>
+                <h1>Order Your Garam Chai Online</h1>
+                <p class="hero-text">
+                    ChaiTap delivers fresh, hot chai to offices, colleges, shops, hostels, and meetings.
+                    Tap, order, and enjoy your favorite chai in minutes.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#order" class="btn primary-btn">Order Now</a>
+                    <a href="#menu" class="btn secondary-btn">View Menu</a>
+                </div>
+            </div>
+
+            <div class="hero-card">
+                <div class="cup">☕</div>
+                <h2>Masala Chai</h2>
+                <p>Hot chai with perfect taste</p>
+                <span>Starting ₹10</span>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature-box">
+                <h3>⚡ Fast Delivery</h3>
+                <p>Get chai delivered quickly near your location.</p>
+            </div>
+
+            <div class="feature-box">
+                <h3>🧾 Bulk Orders</h3>
+                <p>Perfect for offices, meetings, and events.</p>
+            </div>
+
+            <div class="feature-box">
+                <h3>🎯 Custom Chai</h3>
+                <p>Choose sugar level, strong chai, ginger, and more.</p>
+            </div>
+        </section>
+
+        <section class="section" id="menu">
+            <p class="section-subtitle">Our Menu</p>
+            <h2 class="section-title">Choose Your Favorite Chai</h2>
+
+            <div class="menu-grid">
+                <article class="menu-card cutting-card">
+                    <div class="menu-icon">☕</div>
+                    <h3>Cutting Chai</h3>
+                    <p>Small cup, strong taste.</p>
+                    <strong>₹10</strong>
+                </article>
+
+                <article class="menu-card adrak-card">
+                    <div class="adrak-image" aria-label="Adrak Chai image" role="img">
+                        <span class="steam steam-one"></span>
+                        <span class="steam steam-two"></span>
+                        <span class="steam steam-three"></span>
+                        <span class="chai-cup">
+                            <span class="chai-surface"></span>
+                        </span>
+                        <span class="cup-handle"></span>
+                        <span class="saucer"></span>
+                        <span class="ginger-piece ginger-one"></span>
+                        <span class="ginger-piece ginger-two"></span>
+                    </div>
+
+                    <h3>Adrak Chai</h3>
+                    <p>Fresh ginger flavor.</p>
+                    <strong>₹20</strong>
+                </article>
+
+                <article class="menu-card masala-card">
+                    <div class="menu-icon">🌿</div>
+                    <h3>Masala Chai</h3>
+                    <p>Indian spices with milk tea.</p>
+                    <strong>₹20</strong>
+                </article>
+
+                <article class="menu-card kulhad-card">
+                    <div class="menu-icon">🏺</div>
+                    <h3>Kulhad Chai</h3>
+                    <p>Traditional clay cup chai.</p>
+                    <strong>₹30</strong>
+                </article>
+
+                <article class="menu-card samosa-card">
+                    <div class="menu-icon">🥟</div>
+                    <h3>Samosa Combo</h3>
+                    <p>Chai with crispy samosa.</p>
+                    <strong>₹35</strong>
+                </article>
+
+                <article class="menu-card bun-card">
+                    <div class="menu-icon">🍞</div>
+                    <h3>Bun Maska Combo</h3>
+                    <p>Classic chai partner.</p>
+                    <strong>₹40</strong>
+                </article>
+            </div>
+        </section>
+
+        <section class="section plans" id="plans">
+            <p class="section-subtitle">Subscription</p>
+            <h2 class="section-title">Daily Chai Plans</h2>
+
+            <div class="plan-grid">
+                <article class="plan-card">
+                    <h3>Student Plan</h3>
+                    <p class="price">₹399/month</p>
+                    <p>1 chai daily for students.</p>
+                    <a href="#order" class="btn plan-btn">Choose Plan</a>
+                </article>
+
+                <article class="plan-card popular">
+                    <p class="tag">Popular</p>
+                    <h3>Office Plan</h3>
+                    <p class="price">₹699/month</p>
+                    <p>2 chai daily for working people.</p>
+                    <a href="#order" class="btn plan-btn">Choose Plan</a>
+                </article>
+
+                <article class="plan-card">
+                    <h3>Bulk Plan</h3>
+                    <p class="price">Custom</p>
+                    <p>10 to 100 cups for offices/events.</p>
+                    <a href="#order" class="btn plan-btn">Contact Us</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="section order-section" id="order">
+            <div class="order-info">
+                <p class="section-subtitle">Online Order</p>
+                <h2>Place Your Chai Order</h2>
+                <p>
+                    This is a frontend-only demo order form. Backend is not added.
+                    You can later connect it with database and payment system.
+                </p>
+
+                <ul class="steps">
+                    <li>1. Select chai</li>
+                    <li>2. Add quantity</li>
+                    <li>3. Enter address</li>
+                    <li>4. Receive hot chai</li>
+                </ul>
+            </div>
+
+            <form class="order-form">
+                <label for="customer-name">Your Name</label>
+                <input id="customer-name" type="text" placeholder="Enter your name">
+
+                <label for="chai-type">Select Chai</label>
+                <select id="chai-type">
+                    <option>Cutting Chai - ₹10</option>
+                    <option>Adrak Chai - ₹20</option>
+                    <option>Masala Chai - ₹20</option>
+                    <option>Kulhad Chai - ₹30</option>
+                    <option>Samosa Combo - ₹35</option>
+                    <option>Bun Maska Combo - ₹40</option>
+                </select>
+
+                <label for="quantity">Quantity</label>
+                <input id="quantity" type="number" min="1" placeholder="Example: 2">
+
+                <label for="address">Delivery Address</label>
+                <textarea id="address" placeholder="Enter your address"></textarea>
+
+                <button type="button" class="btn primary-btn">Submit Demo Order</button>
+            </form>
+        </section>
+
+        <section class="section">
+            <p class="section-subtitle">How It Works</p>
+            <h2 class="section-title">Simple Ordering Process</h2>
+
+            <div class="work-grid">
+                <article class="work-card">
+                    <span>01</span>
+                    <h3>Select Chai</h3>
+                    <p>Choose your favorite chai from the menu.</p>
+                </article>
+
+                <article class="work-card">
+                    <span>02</span>
+                    <h3>Customize</h3>
+                    <p>Select sugar, strong taste, ginger, and cup type.</p>
+                </article>
+
+                <article class="work-card">
+                    <span>03</span>
+                    <h3>Get Delivery</h3>
+                    <p>Receive hot chai at your location.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h2>☕ ChaiTap</h2>
+        <p>Tap. Sip. Repeat.</p>
+        <p>© 2026 ChaiTap. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
